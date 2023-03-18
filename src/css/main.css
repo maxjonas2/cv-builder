@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 13pt !important;
+}
+
 h1,
 h2,
 h3,
@@ -23,6 +27,9 @@ h6 {
     padding: 0;
     box-sizing: border-box;
   }
+  :root {
+    font-size: 11pt !important;
+  }
   .main-container {
     max-width: 100%;
   }
@@ -37,7 +44,7 @@ h6 {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: system-ui, "Open Sans", sans-serif;
   margin: 0 1rem;
   -webkit-print-color-adjust: exact;
           print-color-adjust: exact;

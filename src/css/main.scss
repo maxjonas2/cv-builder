@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 13pt !important;
+}
+
 h1,
 h2,
 h3,
@@ -20,12 +24,15 @@ h6 {
   line-height: 1.2;
 }
 
-// Printing media query
 @media print {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  :root {
+    font-size: 11pt !important;
   }
 
   .main-container {
@@ -45,7 +52,7 @@ h6 {
 
 // Body tag with sans-serif font
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: system-ui, "Open Sans", sans-serif;
   margin: 0 1rem;
   print-color-adjust: exact;
 }

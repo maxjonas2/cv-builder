@@ -19,6 +19,23 @@
       "period": "05/08/2011 - 18/12/2011"
     }
   ],
+  "education": [
+    {
+      "degreeTitle": "Financial Management",
+      "institutionName": "Universidade do Vale do Rio dos Sinos",
+      "period": "01/2016 - 02/2022"
+    },
+    {
+      "degreeTitle": "IT Technician Course",
+      "institutionName": "Instituto Pró-Universidade Canoense",
+      "period": "01/2009 - 02/2010"
+    },
+    {
+      "degreeTitle": "Análise e Desenvolvimento de Sistema",
+      "institutionName": "Universidade do Vale do Rio dos Sinos",
+      "period": "01/2023 - In Progress"
+    }
+  ],
   "skills": [
     {
       "label": "HTML/CSS",

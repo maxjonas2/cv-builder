@@ -48,6 +48,7 @@ export default function () {
             title={job.title}
             duties={job.duties}
             period={job.period}
+            place={job.place}
             key={job.itle}
           />
         ))}
@@ -57,46 +58,14 @@ export default function () {
 
       <section className="content-container section-work-experience flow-lg">
         <h1 className="section-title">Education</h1>
-        <article className="article-work-experience flex space-between">
-          <div className="description flow-sm">
-            <h1 className="description-title">Financial Management</h1>
-            <h2 className="description-place">
-              Universidade do Vale do Rio dos Sinos
-            </h2>
-            {/* <!-- <p className="description-duties">Finance and Budget Control</p> --> */}
-          </div>
-          <div className="description-period">
-            <p>01/2016 - 02/2022</p>
-          </div>
-        </article>
-
-        <article className="article-work-experience flex space-between">
-          <div className="description flow-sm">
-            <h1 className="description-title">IT Technician Coursek</h1>
-            <h2 className="description-place">
-              Instituto Pró-Universidade Canoense
-            </h2>
-            {/* <!-- <p className="description-duties">Sales and Customer Service</p> --> */}
-          </div>
-          <div className="description-period">
-            <p>01/2009 - 02/2010</p>
-          </div>
-        </article>
-
-        <article className="article-work-experience flex space-between">
-          <div className="description flow-sm">
-            <h1 className="description-title">
-              Análise e Desenvolvimento de Sistemas
-            </h1>
-            <h2 className="description-place">
-              Universidade do Vale do Rio dos Sinos
-            </h2>
-            {/* <!-- <p className="description-duties">Assistance in warehouse duties</p> --> */}
-          </div>
-          <div className="description-period">
-            <p>01/2023 - In Progress</p>
-          </div>
-        </article>
+        {data.education.map((item) => (
+          <EducationDescription
+            degree={item.degreeTitle}
+            institutionName={item.institutionName}
+            period={item.period}
+            key={item.degreeTitle}
+          />
+        ))}
       </section>
 
       {/* <!-- ********** SKILLS ********** --> */}
@@ -183,6 +152,21 @@ function JobDescription({ title, duties, period, place }) {
         <p className="description-duties">{duties}</p>
       </div>
       <div className="description-period hide-on-small-devices">
+        <p>{period}</p>
+      </div>
+    </article>
+  );
+}
+
+function EducationDescription({ degree, institutionName, period }) {
+  return (
+    <article className="article-work-experience flex space-between">
+      <div className="description flow-sm">
+        <h1 className="description-title">{degree}</h1>
+        <h2 className="description-place">{institutionName}</h2>
+        {/* <!-- <p className="description-duties">Finance and Budget Control</p> --> */}
+      </div>
+      <div className="description-period">
         <p>{period}</p>
       </div>
     </article>
