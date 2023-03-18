@@ -1,0 +1,39 @@
+{
+  "jobs": [
+    {
+      "title": "Administrative Assistant",
+      "place": "Receita Federal do Brasil",
+      "duties": "Finance and Budget Control",
+      "period": "05/02/2015 - Current"
+    },
+    {
+      "title": "Customer Service Clerk",
+      "place": "Banco do Brasil",
+      "duties": "Sales and Customer Service",
+      "period": "05/02/2012 - 15/06/2013"
+    },
+    {
+      "title": "Warehouse Clerk",
+      "place": "OrthoSource do Brasil",
+      "duties": "Assistance in warehouse duties",
+      "period": "05/08/2011 - 18/12/2011"
+    }
+  ],
+  "skills": [
+    {
+      "label": "HTML/CSS",
+      "description": "I understand HTML fundamentals, document structure, metadata and the proper usage of semantic markup and *page* structure elements in conformity to W3C specifications, as well as  ttributes and their correct implementation. I am familiar with important accessibility standards such as the use of semantic HTML, heading hierarchy, *ARIA attributes* etc. I can easily implement user input features such as forms and input.",
+      "level": 8
+    },
+    {
+      "label": "Something",
+      "description": "I understand HTML fundamentals, document structure, metadata and the proper usage of semantic markup and *page* structure elements in conformity to W3C specifications, as well as  ttributes and their correct implementation. I am familiar with important accessibility standards such as the use of semantic HTML, heading hierarchy, *ARIA attributes* etc. I can easily implement user input features such as forms and input.",
+      "level": 8
+    },
+    {
+      "label": "Else",
+      "description": "I understand HTML fundamentals, document structure, metadata and the proper usage of semantic markup and *page* structure elements in conformity to W3C specifications, as well as  ttributes and their correct implementation. I am familiar with important accessibility standards such as the use of semantic HTML, heading hierarchy, *ARIA attributes* etc. I can easily implement user input features such as forms and input.",
+      "level": 8
+    }
+  ]
+}
