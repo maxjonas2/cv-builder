@@ -164,8 +164,14 @@ export default function () {
       <section className="content-container section-about flow-sm faded-text">
         <p>This CV was built using React.js</p>
         <p>
-          Access the online version at <a href="/">max-jonas-cv.vercel.app</a>{" "}
-          and GitHub repo at <a href="/">github.com/maxjonas2/cv-builder</a>
+          Access the online version at{" "}
+          <a href="https://cv-builder-maxjonas2.vercel.app">
+            max-jonas-cv.vercel.app
+          </a>{" "}
+          and GitHub repo at{" "}
+          <a href="https://www.github.com/maxjonas2/cv-builder">
+            github.com/maxjonas2/cv-builder
+          </a>
         </p>
       </section>
     </main>
