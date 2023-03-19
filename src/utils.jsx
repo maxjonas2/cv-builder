@@ -3,7 +3,7 @@ export function convertMarkdownToJSX(text) {
   // const CODE_REGEXP = /\+(.*)\+/g;
   const ITALIC_REGEXP = /\*([\w.\<\>\s]+)\*/g;
 
-  let jsx = text.split(ITALIC_REGEXP).map((match, index) => {
+  const jsx = text.split(ITALIC_REGEXP).map((match, index) => {
     return index % 2 === 0 ? <span>{match}</span> : <code>{match}</code>;
   });
 
@@ -12,4 +12,13 @@ export function convertMarkdownToJSX(text) {
   // });
 
   return jsx;
+}
+
+export function matchAndCapture(regexp, text) {
+  const matches = [];
+  let match;
+  while ((match = regexp.exec(text)) !== null) {
+    matches.push(match[0]);
+  }
+  return matches;
 }
