@@ -61,7 +61,7 @@ h6 {
 }
 
 body {
-  font-family: system-ui, "Open Sans", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   margin: 0 1rem;
   -webkit-print-color-adjust: exact;
           print-color-adjust: exact;
@@ -193,12 +193,13 @@ h2 + :is(p, .content) {
 .skill-level-tag {
   width: 16ch;
   height: 1.4rem;
+  font-weight: 600;
   border-radius: 4px;
-  background-color: #2d69ab;
-  color: white;
+  color: #1b4aa0;
   text-transform: uppercase;
   font-size: 0.6rem;
   letter-spacing: 0.6px;
+  border: 1px solid #1b4aa0;
 }
 
 /* SECTION */
@@ -243,8 +244,8 @@ h2 + :is(p, .content) {
   color: #5e5e5e;
 }
 .article-work-experience .description-period {
-  color: #666;
-  font-size: 1.24rem;
+  color: #555;
+  font-size: 1.1rem;
 }
 
 .article-skill > .description-data {

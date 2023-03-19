@@ -1,4 +1,4 @@
-import { FiMail, FiMapPin, FiPhone } from "react-icons/fi";
+import { FiMail, FiMapPin, FiPhone, FiGlobe, FiLinkedin } from "react-icons/fi";
 import EducationDescription from "./components/EducationDescription";
 import JobDescription from "./components/JobDescription";
 import SkillsetDescription from "./components/SkillsetDescription";
@@ -23,6 +23,11 @@ export default function () {
           </div>
         </div>
         <div className='header-info border-left'>
+          <p>
+            <FiGlobe className='feather-icon' />
+            &nbsp; &nbsp;
+            <span>Brazilian</span>
+          </p>
           <p>
             <FiMapPin className='feather-icon' />
             &nbsp; &nbsp;
