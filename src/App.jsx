@@ -1,16 +1,17 @@
-import { useEffect } from "react";
+import { Fragment } from "react";
 import data from "./data.json";
 import { convertMarkdownToJSX } from "./utils";
+import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 
 export default function () {
   return (
     <main className="overflow-hidden main-container">
       <header className="main-header flex space-between items-center content-container">
-        <div className="flex space-beween items-start">
+        <div className="flex space-beween items-center">
           <div className="header-image-container flex centered-items">
             <img className="header-image" src="/jonas.png" width={120} alt="" />
           </div>
-          <div className="header-title">
+          <div className="header-title flow-sm">
             <div className="gradient-text">
               <h1>Max Jonas Chu</h1>
             </div>
@@ -20,26 +21,81 @@ export default function () {
             </h2>
           </div>
         </div>
-        <div className="header-info">
-          <p>Porto Alegre, Rio Grande do Sul</p>
-          <p>(51) 99988-8483</p>
+        <div className="header-info border-left">
           <p>
+            <FiMapPin className="feather-icon" />
+            &nbsp; &nbsp;
+            <span>Porto Alegre, Rio Grande do Sul</span>
+          </p>
+          <p>
+            <FiPhone className="feather-icon" />
+            &nbsp; &nbsp;<span>(51) 99988-8483</span>
+          </p>
+          <p>
+            <FiMail className="feather-icon" />
+            &nbsp; &nbsp;
             <a href="mailto:maxjonas2@hotmail.com">maxjonas2@hotmail.com</a>
           </p>
         </div>
       </header>
       <section className="content-container section-summary">
-        <h1 className="section-title">Profile</h1>
-        <p className="no-border">
-          Dedicated, self-motivated government worker currently looking to make
-          a permanent move into software development. I have a considerable
-          amount of knowledge in a variety of web technologies, which I have
-          been using, practicing and perfecting for the last decade. As a keen,
-          fast and resourceful learner, I can quickly pick up and make use of
-          new knowledge. A communicative challenge-seeker who's passionate about
-          teaming up with people with a strong growth mindset I can both help
-          and learn from.
-        </p>
+        <div>
+          <h1 className="section-title">Profile</h1>
+          <div className="content flex space-between items-start">
+            <p className="no-border profile-description">
+              Dedicated, self-motivated government worker currently looking to
+              make a permanent move into software development. I have a
+              considerable amount of knowledge in a variety of web technologies,
+              which I have been using, practicing and perfecting for the last
+              decade. As a keen, fast and resourceful learner, I can quickly
+              pick up and make use of new knowledge. A communicative
+              challenge-seeker who's passionate about teaming up with people
+              with a strong growth mindset I can both help and learn from.
+            </p>
+            <div class="skill-box info-box border-left">
+              <section className="flow-md">
+                <div className="skill-group flow-xsm">
+                  <h2 className="upper-condensed skill-group-title">
+                    Languages
+                  </h2>
+                  <p>
+                    <span className="skill-name inline-block">Portuguese</span>
+                    <span className="skill-level-tag inline-flex centered-items">
+                      Native
+                    </span>{" "}
+                  </p>
+                  <p>
+                    <span className="skill-name inline-block">English</span>
+                    <span className="skill-level-tag inline-flex centered-items">
+                      Proficent
+                    </span>{" "}
+                  </p>
+                  <p>
+                    <span className="skill-name inline-block">Spanish</span>
+                    <span className="skill-level-tag inline-flex centered-items">
+                      Intermediate
+                    </span>{" "}
+                  </p>
+                  <p>
+                    <span className="skill-name inline-block">French</span>
+                    <span className="skill-level-tag inline-flex centered-items">
+                      Basic
+                    </span>{" "}
+                  </p>
+                </div>
+                {/* <div className="skill-group flow-xsm">
+                  <h2 className="upper-condensed skill-group-title">
+                    Other skills
+                  </h2>
+                  <p>• Communication</p>
+                  <p>• Team Work</p>
+                  <p>• Critical Thinking</p>
+                  <p>• Time Management</p>
+                </div> */}
+              </section>
+            </div>
+          </div>
+        </div>
       </section>
       <section className="content-container section-work-experience flow-lg">
         <h1 className="section-title">Employment history</h1>
@@ -87,7 +143,7 @@ export default function () {
 
       {/* ********** ABOUT ********** */}
 
-      <section className="content-container section-about flow-lg">
+      {/* <section className="content-container section-about flow-lg">
         <h1 className="section-title">About me</h1>
         <p className="no-border">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
@@ -102,6 +158,14 @@ export default function () {
           <a taget="_blank" href="https://github.com/maxjonas2">
             here
           </a>
+        </p>
+      </section> */}
+
+      <section className="content-container section-about flow-sm faded-text">
+        <p>This CV was built using React.js</p>
+        <p>
+          Access the online version at <a href="/">max-jonas-cv.vercel.app</a>{" "}
+          and GitHub repo at <a href="/">github.com/maxjonas2/cv-builder</a>
         </p>
       </section>
     </main>
@@ -118,10 +182,23 @@ function matchAndCapture(regexp, text) {
 }
 
 function SkillsetDescription({ level, title, descriptionText }) {
+  let formattedTitle = title;
+  if (title.includes("/")) {
+    formattedTitle = title.split("/");
+    formattedTitle.splice(
+      1,
+      0,
+      <Fragment>
+        <span>/</span>
+        <br />
+      </Fragment>
+    );
+  }
+
   return (
-    <article className="article-skill flex space-between">
+    <article className="article-skill flex space-between border-left">
       <div className="description flow-sm">
-        <h1 className="description-title">{title}</h1>
+        <h1 className="description-title">{formattedTitle}</h1>
       </div>
       <div className="description-data">
         {/* <!-- SKILL LEVEL --> */}
@@ -146,7 +223,7 @@ function SkillBar({ level }) {
 
 function JobDescription({ title, duties, period, place }) {
   return (
-    <article className="article-work-experience flex space-between">
+    <article className="article-work-experience border-left flex space-between">
       <div className="description flow-sm">
         <h1 className="description-title">{title}</h1>
         <h2 className="description-place">{place}</h2>
@@ -161,7 +238,7 @@ function JobDescription({ title, duties, period, place }) {
 
 function EducationDescription({ degree, institutionName, period }) {
   return (
-    <article className="article-work-experience flex space-between">
+    <article className="article-work-experience border-left flex space-between">
       <div className="description flow-sm">
         <h1 className="description-title">{degree}</h1>
         <h2 className="description-place">{institutionName}</h2>
