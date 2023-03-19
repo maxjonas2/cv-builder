@@ -4,7 +4,9 @@ export default function EducationDescription({
   period,
 }) {
   return (
-    <article className='article-work-experience border-left flex space-between'>
+    <article
+      className={"article-work-experience border-left flex space-between"}
+    >
       <div className='description flow-sm'>
         <h1 className='description-title'>{degree}</h1>
         <h2 className='description-place'>{institutionName}</h2>

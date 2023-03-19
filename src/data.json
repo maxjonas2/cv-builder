@@ -1,61 +1,62 @@
 {
-  "profileDescription": "Dedicated, self-motivated government worker currently looking to make a permanent move into software development. I have a  considerable amount of knowledge in a variety of web technologies,  which I have been using, practicing and perfecting for the last decade. As a keen, fast and resourceful learner, I can quickly pick up and make use of new knowledge. A communicative challenge-seeker who's passionate about teaming up with people with a strong growth mindset I can both help and learn from.",
+  "profileDescription": "Dedicated, self-motivated developer and civil servant looking to make a permanent transition into software engineering. I have a  considerable amount of knowledge in a variety of web technologies, which I have been using, practicing and perfecting for the last decade. As a keen, fast and resourceful learner, I can quickly pick up and make use of new knowledge. I am a communicative challenge-seeker and passionate about teaming up with people with a strong growth mindset who I can both help and learn from. Responsible for developing the Estrela 10 e-commerce app.",
   "jobs": [
     {
       "title": "Administrative Assistant",
       "place": "Receita Federal do Brasil",
-      "duties": "Finance and Budget Control",
+      "duties": "Finance and budget control",
       "period": "Feb 2015 - Present"
     },
     {
       "title": "Customer Service Clerk",
       "place": "Banco do Brasil",
-      "duties": "Sales and Customer Service",
+      "duties": "Sales and customer service",
       "period": "Feb 2012 - Jun 2013"
     },
     {
       "title": "Warehouse Clerk",
       "place": "OrthoSource do Brasil",
-      "duties": "Assistance in warehouse duties",
+      "duties": "Assistance in various warehouse duties",
       "period": "Aug 2011 - Dec 2011"
     }
   ],
   "education": [
     {
-      "degreeTitle": "Financial Management",
+      "degreeTitle": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
       "institutionName": "Universidade do Vale do Rio dos Sinos",
-      "period": "Fnished 02/2022"
+      "period": "2023/01 - In Progress"
     },
     {
-      "degreeTitle": "IT Technician Course",
+      "degreeTitle": "Tecnólogo em Gestão Financeira",
+      "institutionName": "Universidade do Vale do Rio dos Sinos",
+      "period": "Finished 2022/02"
+    },
+
+    {
+      "degreeTitle": "Técnico em Informática",
       "institutionName": "Instituto Pró-Universidade Canoense",
-      "period": "Fnished 02/2010"
-    },
-    {
-      "degreeTitle": "Análise e Desenvolvimento de Sistemas",
-      "institutionName": "Universidade do Vale do Rio dos Sinos",
-      "period": "01/2023 - In Progress"
+      "period": "Finished 2010/02"
     }
   ],
   "skills": [
     {
       "label": "HTML/CSS",
-      "description": "I understand HTML fundamentals, document structure, metadata and the proper usage of semantic markup and page structure elements in conformity to W3C specifications, as well as attributes and their correct implementation. I can easily implement user input features such as forms and input elements, as well as audiovisual elements (e.g. *<audio>* and *<video>*) and device-specific visual optimization (e.g. *<picture>* and *<source>* tags). I have an extensive knowledge of CSS, from fundamentals such as the box model, layout flow, common element properties, positioning, the cascade, size units, CSS custom properties, pseudo-classes and specificity rules to more advanced concepts such as Flexbox, Grid, 3D transforms, transitions and animations, clipping and masking, advanced selectors, pseudo-elements and cross-browser compatibility. I have an understanding of CSS conventions for code reusability/readability and the avoidance of repetition, as well as performance optimization. I habitually make use of processors such as Sass and PostCSS and have a good, working understanding of variables, mixins, imports, nesting and common Sass functions. I'm familiar with and able to effectively implement responsive web design and media queries.",
+      "description": "I understand HTML fundamentals, document structure, metadata, the proper usage of semantic markup and page structure elements in conformity to W3C specifications, as well as attributes and their correct implementation. I can easily implement user input features such as forms and input elements, as well as audiovisual elements (e.g. *<audio>* and *<video>*) and device-specific visual optimization (e.g. *<picture>* and *<source>* tags). I have an extensive knowledge of CSS, from fundamentals such as the box model, layout flow, common element properties, positioning, the cascade, size units, CSS custom properties, pseudo-classes and specificity rules to more advanced concepts such as Flexbox, Grid, 3D transforms, transitions and animations, clipping and masking, advanced selectors, pseudo-elements and cross-browser compatibility. I am familiar with and able to effectively implement responsive web design and media queries.",
       "level": 9
     },
     {
-      "label": "Javascript (ES6)",
-      "description": "I have a solid understanding of fundamental programming concepts with a major focus on JavaScript,from essentials (variables, arrays, objects, types, functions, callbacks, scope, iteration and Recursion, conditional statements, events etc.) to more advanced topics (classes and Object-Oriented Programming, promises and promise-based APIs, asynchronous functions, the event loop, throttling and debouncing, hoisting, closures, object prototypes and prototype inheritance etc.). I understand and can easily utilize features such as destructuring, spread syntax, template literals, arrow functions, Maps and Sets, modules etc. I am familiar with useful array methods (array manipulation, *map*, *sort*, *find*, *filter*, *reduce*, *findIndex* etc.) and similar string manipulation methods, as well as Regular Expressions. I am also extensively familiar with the Document Object Model, DOM manipulation and modern browser APIs (Fetch, XMLHttpRequest, WebWorkers, Geolocation, Storage, Broadcast Channel, Web Animations, Canvas, WebSockets etc.). I have a solid grasp of TypeScript and its main features. I am acquainted with NPM and Node.js, and I understand how to manage and make use of dependencies.",
+      "label": "Javascript (ES6) / Front-end Development",
+      "description": "I have a solid understanding of fundamental programming concepts, with a major focus on JavaScript, from essentials such as variables, arrays, objects, types, functions, callbacks, scope, iteration, recursion, conditional statements, and events, to more advanced topics such as classes and object-oriented programming, promises and promise-based APIs, asynchronous functions, the event loop, throttling and debouncing, hoisting, closures, object prototypes, prototype inheritance and more advanced array manipulation methods. I understand and can easily utilize features such as destructuring, spread syntax, template literals, arrow functions, Maps and Sets and modules. I am familiar with the Document Object Model, DOM manipulation, and modern browser APIs such as Fetch, XMLHttpRequest, WebWorkers, Geolocation, Storage, Broadcast Channel, Web Animations, Canvas, and WebSockets. Additionally, I have a solid grasp of TypeScript and its main features and am acquainted with Node.js and package management via NPM.",
       "level": 9
     },
     {
       "label": "React.js",
-      "description": "I have a comprehensive understanding of all core React concepts, such as components, props, component-based application development, component modularity and reusability and state management. I understand and can make use of built-in React hooks in functional components, such as *useState*, *useEffect*, *useRef* as well as implement custom hooks for specific or common tasks. I have a full understanding of the concept and usage of props, state lifting, child-to-parent communication, as well as the Context API for reducing or eliminating excessive prop-drilling. I can implement performance optimization techniques, such as memoization (*React.memo*, *useCallback*, *useMemo* etc.) and code-splitting. I can implement client-side routing using declarative routing libraries such as React Router, and make use of its principal tools, such URL-based rendering, nesting, URL parameters and navigation. I have an essential understanding of bundling tools such as Webpack. ",
+      "description": "I have a comprehensive understanding of all core React concepts, such as components, props, component-based application development, component modularity, reusability, and state management. I understand and can make use of built-in React hooks in functional components, such as *useState*, *useEffect*, *useRef* and *useReducer*, as well as implement custom hooks for specific or common tasks. I have a full understanding of the concept and usage of props, state lifting, child-to-parent communication, as well as the Context API for reducing or eliminating excessive prop-drilling. I can implement performance optimization techniques, such as memoization (*React.memo*, *useCallback*, *useMemo* etc.) and code-splitting. Additionally, I can implement client-side routing using declarative routing libraries such as React Router and make use of its principal tools, such as URL-based rendering, nesting, URL parameters, and navigation. I also have an essential understanding of bundling tools such as Webpack. ",
       "level": 8
     },
     {
-      "label": "React Native / Mobile App Development",
-      "description": "I am acquainted with React Native concepts, fundamental mobile app development notions, React Native core components and libraries (View, Text, Image, ScrollView, FlatList, SectionList, Touchable, Pressable, Animated/Reanimated etc.) as well as external libraries for added layout functionality and navigation (e.g. React Navigation). I am able to incorporate all fundamental and necessary core React concepts into React Native.",
+      "label": "React Native / Mobile Development",
+      "description": "I am acquainted with React Native concepts, fundamental mobile app development notions, React Native core components and libraries (*View*, *Text*, *Image*, *ScrollView*, *FlatList*, *SectionList*, *Touchable*, *Pressable*, *Animated* etc.) as well as external libraries for added layout functionality and navigation (e.g. React Navigation). I am able to incorporate all fundamental and necessary core React concepts into React Native.",
       "level": 8
     },
     {
@@ -65,12 +66,12 @@
     },
     {
       "label": "Git",
-      "description": "I have a working grasp of versioning concepts I can use Git for cloning and initializing repositories, staging and committing code changes, pushing and pulling changes to and from remote repositories such as GitHub, branching and merging, reverting to previous commits, rebasing as well as essential configuration.",
+      "description": "I have a working grasp of versioning concepts and can use Git for cloning and initializing repositories, staging and committing code changes, pushing and pulling changes to and from remote repositories such as GitHub, branching and merging, reverting to previous commits as well as essential configuration.",
       "level": 7
     },
     {
       "label": "Web Design",
-      "description": "I can effectively use tools such as Figma and Photoshop for prototyping user interfaces and crafting external visual elements when necessary. I have a decent understanding of fundamental design principles, typography, design systems, color theory and UI / UX patterns for providing the user with a fluid, intuitive, visually pleasing and responsive experience, including accessibility concerns. I am acquainted with SVG and can effectively implement it in web and mobile applications.",
+      "description": "I can effectively use tools such as Figma and Adobe Photoshop for prototyping user interfaces and crafting external visual elements when necessary. I also have a decent understanding of fundamental design principles, typography, design systems, color theory and UI / UX patterns for providing the user with a fluid, intuitive, visually pleasing and responsive experience, including accessibility concerns.",
       "level": 7
     },
     {

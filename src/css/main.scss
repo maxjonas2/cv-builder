@@ -167,13 +167,10 @@ h2 + :is(p, .content) {
 }
 
 .gradient-text {
-  background-image: linear-gradient(to bottom right, #1b4aa0, #1b4aa0);
-  background-clip: text;
-
   width: fit-content;
 
   > :is(p, h1, h2, h3, h4, h5, h6, span) {
-    color: transparent !important;
+    color: #324eb2;
   }
 }
 
@@ -244,7 +241,11 @@ h2 + :is(p, .content) {
 }
 
 .content-container {
-  margin-bottom: 3.4rem;
+  margin-bottom: 3rem;
+}
+
+.break-after {
+  page-break-after: always;
 }
 
 /* ARTICLES */
@@ -257,13 +258,24 @@ h2 + :is(p, .content) {
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #5e5e5e;
+    font-weight: 500;
   }
 
   .description-period {
     color: #555;
     font-size: 1.1rem;
+  }
+
+  .description-duties {
+    font-size: 0.9rem;
+    font-weight: 400;
+
+    &::before {
+      content: "• ";
+      color: #444;
+    }
   }
 }
 
@@ -339,7 +351,7 @@ img {
 }
 
 .header-image-container {
-  --image-size: 120px;
+  --image-size: 100px;
   --border-width: 8px;
 
   width: calc(var(--image-size) + var(--border-width));
@@ -388,4 +400,11 @@ code {
   // background-color: #ddd;
   padding: 0 2px;
   letter-spacing: 0.25px;
+}
+
+.workplace-icon {
+  position: relative;
+  top: 2.5px;
+  margin-right: 4px;
+  stroke: #aaa;
 }

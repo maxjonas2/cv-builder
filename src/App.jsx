@@ -1,4 +1,4 @@
-import { FiMail, FiMapPin, FiPhone, FiGlobe, FiLinkedin } from "react-icons/fi";
+import { FiGlobe, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 import EducationDescription from "./components/EducationDescription";
 import JobDescription from "./components/JobDescription";
 import SkillsetDescription from "./components/SkillsetDescription";
@@ -10,7 +10,7 @@ export default function () {
       <header className='main-header flex space-between items-center content-container'>
         <div className='flex space-beween items-center'>
           <div className='header-image-container flex centered-items'>
-            <img className='header-image' src='/jonas.png' width={120} alt='' />
+            <img className='header-image' src='/jonas.png' width={100} alt='' />
           </div>
           <div className='header-title flow-sm'>
             <div className='gradient-text'>
@@ -31,7 +31,7 @@ export default function () {
           <p>
             <FiMapPin className='feather-icon' />
             &nbsp; &nbsp;
-            <span>Porto Alegre, Rio Grande do Sul</span>
+            <span>Canoas, Rio Grande do Sul</span>
           </p>
           <p>
             <FiPhone className='feather-icon' />
@@ -49,7 +49,18 @@ export default function () {
           <h1 className='section-title'>Profile</h1>
           <div className='content flex space-between items-start'>
             <p className='no-border profile-description'>
-              {data.profileDescription}
+              Dedicated, self-motivated developer and civil servant looking to
+              make a permanent transition into software engineering. I have a
+              considerable amount of knowledge in a variety of web technologies,
+              which I have been using, practicing, and perfecting for the last
+              decade. As a fast and resourceful learner, I can easily pick up
+              and make use of new knowledge. I am a communicative
+              challenge-seeker passionate about people with a strong growth
+              mindset who I can both help and learn from. I have built the
+              e-commerce app for a large e-commerce platform{" "}
+              <em>(Estrela 10)</em> and am currently working on personal
+              web-based and mobile projects using React.js, Next.js, React
+              Native, Node.js, Google Cloud and machine learning integration.
             </p>
             <div className='skill-box info-box border-left'>
               <section className='flow-md'>
@@ -57,25 +68,25 @@ export default function () {
                   <h2 className='upper-condensed skill-group-title'>
                     Languages
                   </h2>
-                  <p>
+                  <p className='skill-name-container'>
                     <span className='skill-name inline-block'>Portuguese</span>
                     <span className='skill-level-tag inline-flex centered-items'>
                       Native
                     </span>{" "}
                   </p>
-                  <p>
+                  <p className='skill-name-container'>
                     <span className='skill-name inline-block'>English</span>
                     <span className='skill-level-tag inline-flex centered-items'>
-                      Proficent
+                      Advanced
                     </span>{" "}
                   </p>
-                  <p>
+                  <p className='skill-name-container'>
                     <span className='skill-name inline-block'>Spanish</span>
                     <span className='skill-level-tag inline-flex centered-items'>
                       Intermediate
                     </span>{" "}
                   </p>
-                  <p>
+                  <p className='skill-name-container'>
                     <span className='skill-name inline-block'>French</span>
                     <span className='skill-level-tag inline-flex centered-items'>
                       Basic
@@ -111,9 +122,9 @@ export default function () {
 
       {/* <!-- ********** EDUCATION ********** --> */}
 
-      <section className='content-container section-work-experience flow-lg'>
+      <section className='content-container section-work-experience flow-lg break-after'>
         <h1 className='section-title'>Education</h1>
-        {data.education.map((item) => (
+        {data.education.map((item, index) => (
           <EducationDescription
             degree={item.degreeTitle}
             institutionName={item.institutionName}
