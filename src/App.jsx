@@ -8,7 +8,7 @@ export default function () {
       <header className="main-header flex space-between items-center content-container">
         <div className="flex space-beween items-start">
           <div className="header-image-container flex centered-items">
-            <img className="header-image" src="/jonas.png" width={140} alt="" />
+            <img className="header-image" src="/jonas.png" width={120} alt="" />
           </div>
           <div className="header-title">
             <div className="gradient-text">
@@ -29,20 +29,20 @@ export default function () {
         </div>
       </header>
       <section className="content-container section-summary">
-        <h1 className="section-title">Summary</h1>
+        <h1 className="section-title">Profile</h1>
         <p className="no-border">
-          As a keen, fast and resourceful learner, I can quickly pick up new
-          technologies/frameworks and deploy applications which use them to the
-          best of their potential. I also have excellent communication skills
-          and fluent English, which enables me to easily establish rapport and
-          synergy with those around me, no matter where they are from. For this
-          reason, I believe I would be an excellent fit for this company, as I
-          also thrive as a team member. Cliche as it may sound, I truly am
-          challenge-driven.
+          Dedicated, self-motivated government worker currently looking to make
+          a permanent move into software development. I have a considerable
+          amount of knowledge in a variety of web technologies, which I have
+          been using, practicing and perfecting for the last decade. As a keen,
+          fast and resourceful learner, I can quickly pick up and make use of
+          new knowledge. A communicative challenge-seeker who's passionate about
+          teaming up with people with a strong growth mindset I can both help
+          and learn from.
         </p>
       </section>
       <section className="content-container section-work-experience flow-lg">
-        <h1 className="section-title">Work Experience</h1>
+        <h1 className="section-title">Employment history</h1>
         {data.jobs.map((job) => (
           <JobDescription
             title={job.title}
@@ -72,6 +72,7 @@ export default function () {
 
       <section className="content-container section-skills flow-lg">
         <h1 className="section-title">Skills</h1>
+        <div className="soft-skills-container"></div>
         {data.skills.map((skill) => {
           return (
             <SkillsetDescription
@@ -120,7 +121,7 @@ function SkillsetDescription({ level, title, descriptionText }) {
   return (
     <article className="article-skill flex space-between">
       <div className="description flow-sm">
-        <h1 className="description-title bold">{title}</h1>
+        <h1 className="description-title">{title}</h1>
       </div>
       <div className="description-data">
         {/* <!-- SKILL LEVEL --> */}

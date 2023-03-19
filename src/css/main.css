@@ -126,7 +126,7 @@ h1 + p {
 /* SECTION */
 .content-container > :is(article, section) {
   padding-left: 1.5rem;
-  border-left: 4px solid #1b4aa0;
+  border-left: 4px solid #6e32cd;
 }
 
 .no-border {
@@ -175,6 +175,12 @@ h1 + p {
 }
 
 /* SKILLS */
+.article-skill .description-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6b6b6b;
+}
+
 .skill-bar-level {
   display: inline-block;
   width: 32px;
@@ -213,18 +219,19 @@ img {
 
 .header-info {
   padding-left: 1rem;
-  border-left: 4px solid #1b4aa0;
+  border-left: 4px solid #6e32cd;
 }
 
 .header-image-container {
-  --image-size: 140px;
+  --image-size: 120px;
   --border-width: 8px;
   width: calc(var(--image-size) + var(--border-width));
   height: calc(var(--image-size) + var(--border-width));
   overflow: hidden;
   margin-right: 1rem;
   border-radius: calc(var(--image-size) / 2 + var(--border-width) / 2);
-  background-image: linear-gradient(to bottom left, #3884e2, rgb(140, 58, 224));
+  background-image: linear-gradient(to bottom left, #3884e2, rgb(110, 50, 205));
+  animation: gradient-slide 0.8s ease;
 }
 
 .header-image {
@@ -245,4 +252,9 @@ img {
 
 .items-end {
   align-items: flex-end;
+}
+
+code {
+  padding: 0 2px;
+  letter-spacing: 0.25px;
 }/*# sourceMappingURL=main.css.map */

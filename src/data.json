@@ -4,34 +4,34 @@
       "title": "Administrative Assistant",
       "place": "Receita Federal do Brasil",
       "duties": "Finance and Budget Control",
-      "period": "05/02/2015 - Current"
+      "period": "Feb 2015 - Present"
     },
     {
       "title": "Customer Service Clerk",
       "place": "Banco do Brasil",
       "duties": "Sales and Customer Service",
-      "period": "05/02/2012 - 15/06/2013"
+      "period": "Feb 2012 - Jun 2013"
     },
     {
       "title": "Warehouse Clerk",
       "place": "OrthoSource do Brasil",
       "duties": "Assistance in warehouse duties",
-      "period": "05/08/2011 - 18/12/2011"
+      "period": "Aug 2011 - Dec 2011"
     }
   ],
   "education": [
     {
       "degreeTitle": "Financial Management",
       "institutionName": "Universidade do Vale do Rio dos Sinos",
-      "period": "01/2016 - 02/2022"
+      "period": "Fnished 02/2022"
     },
     {
       "degreeTitle": "IT Technician Course",
       "institutionName": "Instituto Pró-Universidade Canoense",
-      "period": "01/2009 - 02/2010"
+      "period": "Fnished 02/2010"
     },
     {
-      "degreeTitle": "Análise e Desenvolvimento de Sistema",
+      "degreeTitle": "Análise e Desenvolvimento de Sistemas",
       "institutionName": "Universidade do Vale do Rio dos Sinos",
       "period": "01/2023 - In Progress"
     }
@@ -39,7 +39,7 @@
   "skills": [
     {
       "label": "HTML/CSS",
-      "description": "I understand HTML fundamentals, document structure, metadata and the proper usage of semantic markup and page structure elements in conformity to W3C specifications, as well as attributes and their correct implementation. I can easily implement user input features such as forms and input elements, as well as audiovisual elements (e.g. ***<audio>*** and ***<video>***) and device-specific visual optimization (e.g. ***<picture>*** and ***<source>*** tags). I have an extensive knowledge of CSS, from fundamentals such as the box model, layout flow, common element properties, positioning, the cascade, size units, CSS custom properties, pseudo-classes and specificity rules to more advanced concepts such as Flexbox, Grid, 3D transforms, transitions and animations, clipping and masking, advanced selectors, pseudo-elements and cross-browser compatibility. I have an understanding of CSS conventions for code reusability/readability and the avoidance of repetition, as well as performance optimization. I habitually make use of pre-processors such as Sass and have a good, working understanding of variables, mixins, imports, nesting and common Sass functions. I'm familiar with and able to effectively implement responsive web design and media queries.",
+      "description": "I understand HTML fundamentals, document structure, metadata and the proper usage of semantic markup and page structure elements in conformity to W3C specifications, as well as attributes and their correct implementation. I can easily implement user input features such as forms and input elements, as well as audiovisual elements (e.g. *<audio>* and *<video>*) and device-specific visual optimization (e.g. *<picture>* and *<source>* tags). I have an extensive knowledge of CSS, from fundamentals such as the box model, layout flow, common element properties, positioning, the cascade, size units, CSS custom properties, pseudo-classes and specificity rules to more advanced concepts such as Flexbox, Grid, 3D transforms, transitions and animations, clipping and masking, advanced selectors, pseudo-elements and cross-browser compatibility. I have an understanding of CSS conventions for code reusability/readability and the avoidance of repetition, as well as performance optimization. I habitually make use of processors such as Sass and PostCSS and have a good, working understanding of variables, mixins, imports, nesting and common Sass functions. I'm familiar with and able to effectively implement responsive web design and media queries.",
       "level": 9
     },
     {
@@ -49,22 +49,22 @@
     },
     {
       "label": "React.js",
-      "description": "I have a comprehensive understanding of all core React concepts, such as components, props, component-based application development, component modularity/reusability and state management (including the use of state management libraries such as Redux). I understand and can make use of all built-in React hooks, for functional components, such as *useState*, *useEffect*, *useRef* as well as implement custom hooks for specific or common tasks. I have a fully working understanding of the concept and usage of props, state lifting, child-to-parent communication, as well as the Context API for reducing or eliminating excessive prop-drilling. I can implement performance optimization techniques, such as memoization (*React.memo()*, *useCallback()*, *useMemo* etc.), code-splitting, list virtualization etc. I have an essential understanding of bundling tools such as Webpack. I can implement client-side routing using declarative routing libraries such as React Router, and make use of its principal tools, such URL-based rendering, nesting, URL parameters and navigation.",
+      "description": "I have a comprehensive understanding of all core React concepts, such as components, props, component-based application development, component modularity and reusability and state management. I understand and can make use of built-in React hooks in functional components, such as *useState*, *useEffect*, *useRef* as well as implement custom hooks for specific or common tasks. I have a full understanding of the concept and usage of props, state lifting, child-to-parent communication, as well as the Context API for reducing or eliminating excessive prop-drilling. I can implement performance optimization techniques, such as memoization (*React.memo*, *useCallback*, *useMemo* etc.) and code-splitting. I can implement client-side routing using declarative routing libraries such as React Router, and make use of its principal tools, such URL-based rendering, nesting, URL parameters and navigation. I have an essential understanding of bundling tools such as Webpack. ",
       "level": 8
     },
     {
       "label": "React Native / Mobile App Development",
-      "description": "I am acquainted with React Native concepts, fundamental mobile app development notions, React Native core components and libraries (View, Text, Image, ScrollView, FlatList, SectionList, Touchable, Pressable, Animated etc.) as well as external libraries for added layout functionality and navigation (e.g. React Navigation). I am able to incorporate all fundamental and necessary core React concepts into React Native.",
+      "description": "I am acquainted with React Native concepts, fundamental mobile app development notions, React Native core components and libraries (View, Text, Image, ScrollView, FlatList, SectionList, Touchable, Pressable, Animated/Reanimated etc.) as well as external libraries for added layout functionality and navigation (e.g. React Navigation). I am able to incorporate all fundamental and necessary core React concepts into React Native.",
       "level": 8
     },
     {
       "label": "Next.js",
-      "description": "I understand and can utilize Next.js as a React-based framework for Server-Side Rendering of web applications and Static Site Generation for enhanced page performance, Incremental Static Regeneration and CDN caching, SEO optimization, etc. I can create a Next.js project and implement most Next-specific features, such as folder-based routing, dynamic routes, React Server and Client Components, nested layouts, page pre-rendering, image/font optimization and automatic prefetching of pages for faster navigation. I can deploy Next.js apps using platforms such as Vercel and AWS.",
+      "description": "I understand and can utilize Next.js as a React-based framework for Server-Side Rendering of web applications and Static Site Generation for enhanced page performance, as well as Incremental Static Regeneration and CDN caching, SEO optimization, etc. I can create a Next.js project and implement most Next-specific features, such as folder-based routing, dynamic routes, React Server and Client Components, nested layouts, page pre-rendering, image optimization and automatic prefetching of pages for faster navigation. I can deploy Next.js apps using platforms such as Vercel and AWS.",
       "level": 8
     },
     {
       "label": "Git",
-      "description": "I have a working grap of versioning concepts I can use Git for cloning and initializing repositories, staging and committing code changes, pushing and pulling changes to and from remote repositories such as GitHub, branching and merging, reverting to previous commits, rebasing as well as essential configuration.",
+      "description": "I have a working grasp of versioning concepts I can use Git for cloning and initializing repositories, staging and committing code changes, pushing and pulling changes to and from remote repositories such as GitHub, branching and merging, reverting to previous commits, rebasing as well as essential configuration.",
       "level": 7
     },
     {
