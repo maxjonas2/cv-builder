@@ -22,6 +22,10 @@ h6 {
   line-height: 1.2;
 }
 
+.content-container {
+  margin-bottom: 3rem;
+}
+
 @media print {
   * {
     margin: 0;
@@ -51,9 +55,19 @@ h6 {
     max-width: 100%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .hide-on-small-devices {
     display: none;
+  }
+  .space-between {
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+  .content-container {
+    margin-bottom: 2.2rem;
+  }
+  header.main-header {
+    align-items: start;
   }
 }
 :root {
@@ -224,10 +238,6 @@ h2 + :is(p, .content) {
   background-color: #aaa;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.content-container {
-  margin-bottom: 3rem;
 }
 
 .break-after {
