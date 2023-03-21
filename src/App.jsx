@@ -57,10 +57,10 @@ export default function () {
               and make use of new knowledge. I am a communicative
               challenge-seeker passionate about people with a strong growth
               mindset who I can both help and learn from. I have built the
-              e-commerce app for a large e-commerce platform{" "}
-              <em>(Estrela 10)</em> and am currently working on personal
-              web-based and mobile projects using React.js, Next.js, React
-              Native, Node.js, Google Cloud and machine learning integration.
+              mobile app for a large e-commerce platform <em>(Estrela 10)</em>{" "}
+              and am currently working on personal web and mobile application
+              projects using React.js, Next.js, React Native, Node.js, Google
+              Cloud and machine learning integration, among others.
             </p>
             <div className='skill-box info-box border-left'>
               <section className='flow-md'>
