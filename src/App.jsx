@@ -52,7 +52,7 @@ export default function () {
         <section className='content-container section-summary'>
           <div>
             <h1 className='section-title'>Profile</h1>
-            <button onClick={translate}>Translate</button>
+            {/* <button onClick={translate}>Translate</button> */}
             <div className='content flex space-between items-start'>
               <p className='no-border profile-description'>
                 {profileDescriptionContent}
@@ -90,15 +90,6 @@ export default function () {
                       </span>{" "}
                     </p>
                   </div>
-                  {/* <div className="skill-group flow-xsm">
-                    <h2 className="upper-condensed skill-group-title">
-                      Other skills
-                    </h2>
-                    <p>• Communication</p>
-                    <p>• Team Work</p>
-                    <p>• Critical Thinking</p>
-                    <p>• Time Management</p>
-                  </div> */}
                 </section>
               </div>
             </div>
