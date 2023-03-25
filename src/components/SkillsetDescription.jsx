@@ -15,6 +15,8 @@ export default function SkillsetDescription({ level, title, descriptionText }) {
     );
   }
 
+  const mainText = convertMarkdownToJSX(descriptionText);
+
   return (
     <article className='article-skill flex space-between border-left'>
       <div className='description flow-sm'>
@@ -23,9 +25,7 @@ export default function SkillsetDescription({ level, title, descriptionText }) {
       <div className='description-data'>
         {/* <!-- SKILL LEVEL --> */}
         <SkillBar level={level} />
-        <p className='skill-description'>
-          {convertMarkdownToJSX(descriptionText)}
-        </p>
+        <p className='skill-description'>{mainText}</p>
       </div>
     </article>
   );
