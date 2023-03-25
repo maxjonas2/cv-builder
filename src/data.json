@@ -1,5 +1,11 @@
 {
-  "profileDescription": "Dedicated, self-motivated developer and civil servant looking to make a permanent transition into software engineering. I have a  considerable amount of knowledge in a variety of web technologies, which I have been using, practicing and perfecting for the last decade. As a keen, fast and resourceful learner, I can quickly pick up and make use of new knowledge. I am a communicative challenge-seeker and passionate about teaming up with people with a strong growth mindset who I can both help and learn from. Responsible for developing the Estrela 10 e-commerce app.",
+  "personalInformation": {
+    "nationality": "Brazilian",
+    "address": "Canoas, Rio Grande do Sul",
+    "phoneNumber": "(51) 99988-8483",
+    "email": "maxjonas2@hotmail.com"
+  },
+  "profileDescription": "Dedicated, self-motivated developer and civil servant looking to make a permanent transition into software engineering. I have a considerable amount of knowledge in a variety of web technologies, which I have been using, practicing, and perfecting for the last decade. As a fast and resourceful learner, I can easily pick up and make use of new knowledge. I am a communicative challenge-seeker passionate about people with a strong growth mindset who I can both help and learn from. I have built the mobile app for a large e-commerce platform (Estrela 10) and am currently working on personal web and mobile application projects using React.js, Next.js, React Native, Node.js, Google Cloud and machine learning integration, among others.",
   "jobs": [
     {
       "title": "Administrative Assistant",

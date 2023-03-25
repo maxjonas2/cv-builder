@@ -1,7 +1,7 @@
-import { FiGlobe, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 import EducationDescription from "./components/EducationDescription";
 import JobDescription from "./components/JobDescription";
 import SkillsetDescription from "./components/SkillsetDescription";
+import PerfonalInformationBox from "./components/PersonalInformationBox";
 import data from "./data.json";
 
 export default function () {
@@ -22,45 +22,17 @@ export default function () {
             </h2>
           </div>
         </div>
-        <div className='header-info border-left'>
-          <p>
-            <FiGlobe className='feather-icon' />
-            &nbsp; &nbsp;
-            <span>Brazilian</span>
-          </p>
-          <p>
-            <FiMapPin className='feather-icon' />
-            &nbsp; &nbsp;
-            <span>Canoas, Rio Grande do Sul</span>
-          </p>
-          <p>
-            <FiPhone className='feather-icon' />
-            &nbsp; &nbsp;<span>(51) 99988-8483</span>
-          </p>
-          <p>
-            <FiMail className='feather-icon' />
-            &nbsp; &nbsp;
-            <a href='mailto:maxjonas2@hotmail.com'>maxjonas2@hotmail.com</a>
-          </p>
-        </div>
+        <PerfonalInformationBox
+          {...data.personalInformation}
+          classProp='header-info info-box'
+        />
       </header>
       <section className='content-container section-summary'>
         <div>
           <h1 className='section-title'>Profile</h1>
           <div className='content flex space-between items-start'>
             <p className='no-border profile-description'>
-              Dedicated, self-motivated developer and civil servant looking to
-              make a permanent transition into software engineering. I have a
-              considerable amount of knowledge in a variety of web technologies,
-              which I have been using, practicing, and perfecting for the last
-              decade. As a fast and resourceful learner, I can easily pick up
-              and make use of new knowledge. I am a communicative
-              challenge-seeker passionate about people with a strong growth
-              mindset who I can both help and learn from. I have built the
-              mobile app for a large e-commerce platform <em>(Estrela 10)</em>{" "}
-              and am currently working on personal web and mobile application
-              projects using React.js, Next.js, React Native, Node.js, Google
-              Cloud and machine learning integration, among others.
+              {data.profileDescription}
             </p>
             <div className='skill-box info-box border-left'>
               <section className='flow-md'>
