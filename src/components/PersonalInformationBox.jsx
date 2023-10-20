@@ -1,10 +1,11 @@
-import { FiGlobe, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
+import { FiGlobe, FiLinkedin, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 
 export default function PersonalInformationBox(props) {
-  const { address, email, nationality, phoneNumber, classProp } = props;
+  const { address, email, nationality, phoneNumber, classProp, linkedIn } =
+    props;
 
   return (
-    <div className={classProp || ""}>
+    <div className={classProp || "personal-info"}>
       <p>
         <FiGlobe className='feather-icon' />
         &nbsp; &nbsp;
@@ -22,7 +23,14 @@ export default function PersonalInformationBox(props) {
       <p>
         <FiMail className='feather-icon' />
         &nbsp; &nbsp;
-        <a href='mailto:maxjonas2@hotmail.com'>{email}</a>
+        <a href={"mailto:" + email}>{email}</a>
+      </p>
+      <p>
+        <FiLinkedin className='feather-icon' />
+        &nbsp; &nbsp;
+        <a target='_blank' href={linkedIn}>
+          www.linkedin.com/in/max-jonas-gripa
+        </a>
       </p>
     </div>
   );

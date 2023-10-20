@@ -3,9 +3,10 @@
     "nationality": "Brazilian",
     "address": "Canoas, Rio Grande do Sul",
     "phoneNumber": "(51) 99988-8483",
-    "email": "maxjonas2@hotmail.com"
+    "email": "maxjonas2@hotmail.com",
+    "linkedIn": "https://www.linkedin.com/in/max-jonas-gripa-7b182619a"
   },
-  "profileDescription": "Dedicated, self-motivated developer and civil servant looking to make a permanent transition into software engineering. I have a considerable amount of knowledge in a variety of web technologies, which I have been using, practicing, and perfecting for the last decade. As a fast and resourceful learner, I can easily pick up and make use of new knowledge. I am a communicative challenge-seeker passionate about people with a strong growth mindset who I can both help and learn from. I have built the mobile app for a large e-commerce platform (Estrela 10) and am currently working on personal web and mobile application projects using React.js, Next.js, React Native, Node.js, Google Cloud and machine learning integration, among others.",
+  "profileDescription": "Passionate developer and civil servant with a decade of experience in diverse web technologies, ready to transition into the field of IT and software development. I'm a fast learner, a resourceful problem solver and a communicative, people-oriented growth enthusiast. Notably, I've developed a mobile app for a major e-commerce platform (Estrela 10) and continue to work on exciting web and mobile projects, utilizing technologies such as HTML, CSS, JavaScript, Node.js, React Native, cloud platforms (GCP) and and machine learning integration.",
   "jobs": [
     {
       "title": "Administrative Assistant",
@@ -18,12 +19,6 @@
       "place": "Banco do Brasil",
       "duties": "Sales and customer service",
       "period": "Feb 2012 - Jun 2013"
-    },
-    {
-      "title": "Warehouse Clerk",
-      "place": "OrthoSource do Brasil",
-      "duties": "Assistance in various warehouse duties",
-      "period": "Aug 2011 - Dec 2011"
     }
   ],
   "education": [
@@ -51,39 +46,47 @@
       "level": 9
     },
     {
-      "label": "Javascript (ES6) / Front-end Development",
+      "label": "Javascript | Node.JS | Web Development",
       "description": "I have a solid understanding of fundamental programming concepts, with a major focus on JavaScript, from essentials such as variables, arrays, objects, types, functions, callbacks, scope, iteration, recursion, conditional statements, and events, to more advanced topics such as classes and object-oriented programming, promises and promise-based APIs, asynchronous functions, the event loop, throttling and debouncing, hoisting, closures, object prototypes, prototype inheritance and more advanced array manipulation methods. I understand and can easily utilize features such as destructuring, spread syntax, template literals, arrow functions, Maps and Sets and modules. I am familiar with the Document Object Model, DOM manipulation, and modern browser APIs such as Fetch, XMLHttpRequest, WebWorkers, Geolocation, Storage, Broadcast Channel, Web Animations, Canvas, and WebSockets. Additionally, I have a solid grasp of TypeScript and its main features and am acquainted with Node.js and package management via NPM.",
-      "level": 9
+      "level": 9,
+      "omit": false
     },
     {
-      "label": "React.js",
+      "label": "React | Next.js",
       "description": "I have a comprehensive understanding of all core React concepts, such as components, props, component-based application development, component modularity, reusability, and state management. I understand and can make use of built-in React hooks in functional components, such as *useState*, *useEffect*, *useRef* and *useReducer*, as well as implement custom hooks for specific or common tasks. I have a full understanding of the concept and usage of props, state lifting, child-to-parent communication, as well as the Context API for reducing or eliminating excessive prop-drilling. I can implement performance optimization techniques, such as memoization (*React.memo*, *useCallback*, *useMemo* etc.) and code-splitting. Additionally, I can implement client-side routing using declarative routing libraries such as React Router and make use of its principal tools, such as URL-based rendering, nesting, URL parameters, and navigation. I also have an essential understanding of bundling tools such as Webpack. ",
-      "level": 8
+      "level": 8,
+      "omit": false
     },
     {
-      "label": "React Native / Mobile Development",
+      "label": "Mobile Development (React Native)",
       "description": "I am acquainted with React Native concepts, fundamental mobile app development notions, React Native core components and libraries (*View*, *Text*, *Image*, *ScrollView*, *FlatList*, *SectionList*, *Touchable*, *Pressable*, *Animated* etc.) as well as external libraries for added layout functionality and navigation (e.g. React Navigation). I am able to incorporate all fundamental and necessary core React concepts into React Native.",
-      "level": 8
+      "level": 8,
+      "omit": false
     },
     {
       "label": "Next.js",
       "description": "I understand and can utilize Next.js as a React-based framework for Server-Side Rendering of web applications and Static Site Generation for enhanced page performance, as well as Incremental Static Regeneration and CDN caching, SEO optimization, etc. I can create a Next.js project and implement most Next-specific features, such as folder-based routing, dynamic routes, React Server and Client Components, nested layouts, page pre-rendering, image optimization and automatic prefetching of pages for faster navigation. I can deploy Next.js apps using platforms such as Vercel and AWS.",
-      "level": 8
+      "level": 8,
+      "omit": true
     },
     {
       "label": "Git",
       "description": "I have a working grasp of versioning concepts and can use Git for cloning and initializing repositories, staging and committing code changes, pushing and pulling changes to and from remote repositories such as GitHub, branching and merging, reverting to previous commits as well as essential configuration.",
-      "level": 7
+      "level": 7,
+      "omit": false
     },
+
     {
-      "label": "Web Design",
-      "description": "I can effectively use tools such as Figma and Adobe Photoshop for prototyping user interfaces and crafting external visual elements when necessary. I also have a decent understanding of fundamental design principles, typography, design systems, color theory and UI / UX patterns for providing the user with a fluid, intuitive, visually pleasing and responsive experience, including accessibility concerns.",
-      "level": 7
-    },
-    {
-      "label": "Back-end development / Cloud Computing",
+      "label": "Cloud Computing (GCP and AWS)",
       "description": "I am able to set up and develop a back-end server using Node.js for handling essential routing, REST API creation and consumption, HTTP requests and responses, form input validation and manipulation, database integration, file handling and serving, HTML pre-processing etc. I am familiar with frameworks such as Express.js and the core aspects of HTTP. I can use cloud platforms such as Google Cloud and AWS to set up virtual machines, serverless functions (e.g. AWS Lambda), storage and Docker containers.",
-      "level": 6
+      "level": 6,
+      "omit": false
+    },
+    {
+      "label": "Data Science | Machine Learning",
+      "description": "Abilities in data science and machine learning",
+      "level": 6,
+      "omit": false
     }
   ]
 }

@@ -79,9 +79,20 @@
 /* SKILLS */
 
 .article-skill .description-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color: #6b6b6b;
+}
+
+.metadata {
+  position: absolute;
+  font-size: 2px;
+  line-height: 0.5;
+  inset: 0;
+  bottom: auto;
+  opacity: 0;
+  color: white;
+  user-select: none;
 }
 
 .skill-bar {
@@ -126,7 +137,7 @@ img {
 }
 
 .main-header {
-  margin-top: 1rem;
+  // margin-top: 1rem;
 }
 
 .feather-icon {
@@ -183,6 +194,10 @@ img {
 .skill-box {
   padding-left: 1rem;
   color: #2e2e2e;
+}
+
+.info-box > p {
+  margin-bottom: 0.325rem;
 }
 
 .border-left {

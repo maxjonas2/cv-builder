@@ -1,7 +1,13 @@
 import { Fragment } from "react";
 import { convertMarkdownToJSX } from "../utils";
 
-export default function SkillsetDescription({ level, title, descriptionText }) {
+export default function SkillsetDescription({
+  level,
+  title,
+  descriptionText,
+  showFullDescription,
+  omit,
+}) {
   let formattedTitle = title;
   if (title.includes("/")) {
     formattedTitle = title.split("/");
@@ -10,12 +16,14 @@ export default function SkillsetDescription({ level, title, descriptionText }) {
       0,
       <Fragment>
         <span>/</span>
-        <br />
+        {/* <br /> */}
       </Fragment>
     );
   }
 
   const mainText = convertMarkdownToJSX(descriptionText);
+
+  if (omit) return null;
 
   return (
     <article className='article-skill flex space-between border-left'>
@@ -24,8 +32,8 @@ export default function SkillsetDescription({ level, title, descriptionText }) {
       </div>
       <div className='description-data'>
         {/* <!-- SKILL LEVEL --> */}
-        <SkillBar level={level} />
-        <p className='skill-description'>{mainText}</p>
+        {/* <SkillBar level={level} /> */}
+        {showFullDescription && <p className='skill-description'>{mainText}</p>}
       </div>
     </article>
   );

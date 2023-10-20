@@ -26,13 +26,16 @@ h6 {
 .content-container {
   margin-bottom: 3rem;
 }
+.content-container:first-child {
+  margin-bottom: 2rem;
+}
 
 :root {
   font-size: 12pt;
 }
 
 body {
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Century Gothic", "Lato", "Inter", "Arial", sans-serif;
   margin: 0 1rem;
   -webkit-print-color-adjust: exact;
           print-color-adjust: exact;
@@ -111,8 +114,9 @@ body {
   gap: 4rem;
 }
 
-p {
-  line-height: 1.5;
+p,
+.line-height {
+  line-height: 1.6;
 }
 
 h1 + :is(p, .content) {
@@ -277,9 +281,22 @@ h2 + :is(p, .content) {
 
 /* SKILLS */
 .article-skill .description-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color: #6b6b6b;
+}
+
+.metadata {
+  position: absolute;
+  font-size: 2px;
+  line-height: 0.5;
+  inset: 0;
+  bottom: auto;
+  opacity: 0;
+  color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .skill-bar {
@@ -317,10 +334,6 @@ h2 + :is(p, .content) {
 
 img {
   max-width: 100%;
-}
-
-.main-header {
-  margin-top: 1rem;
 }
 
 .feather-icon {
@@ -375,6 +388,10 @@ img {
 .skill-box {
   padding-left: 1rem;
   color: #2e2e2e;
+}
+
+.info-box > p {
+  margin-bottom: 0.325rem;
 }
 
 .border-left {

@@ -25,6 +25,10 @@ h6 {
 
 .content-container {
   margin-bottom: 3rem;
+
+  &:first-child {
+    margin-bottom: 2rem;
+  }
 }
 
 :root {
@@ -33,7 +37,7 @@ h6 {
 
 // Body tag with sans-serif font
 body {
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Century Gothic", "Lato", "Inter", "Arial", sans-serif;
   margin: 0 1rem;
   print-color-adjust: exact;
 }
@@ -111,8 +115,9 @@ body {
   gap: 4rem;
 }
 
-p {
-  line-height: 1.5;
+p,
+.line-height {
+  line-height: 1.6;
 }
 
 h1 + :is(p, .content) {
